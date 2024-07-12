@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #3A3A3A;
+    padding: 10px 20px;
+    text-align: right;
+    height: 40px;
+
+}
+
+nav {
+    display: inline-block;
+    text-align: inherit;
+}
+
+nav a {
+    height: 21px;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.perfil {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    margin-left: 400px;
+}
+
+.foto {
+    width: 150px;
+    height: 150px;
+    background-color: #ddd;
+    border-radius: 50%;
+    align-items: center;
+}
+
+.descricao {
+   
+}
+
+#formacao, #projetos {
+    padding: 20px;
+    background-color: #f9f9f9;
+    margin: 10px 0;
+}
+
+h3{
+    color: #ddd;
+}
+
+footer {
+    background-color: #000000;
+    padding: 20px;
+    text-align: center;
+}
+
+footer form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer form label {
+    margin: 5px 0;
+     color: #ddd;
+}
+
+footer form input {
+    padding: 5px;
+    margin: 5px 0;
+    width: 50%;
+}

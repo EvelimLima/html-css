@@ -1,0 +1,102 @@
+/* Estilize o cabeçalho */
+body{
+    top: 0px;
+    left: 0px;
+    width: 1920px;
+    height: 2865px;
+/* UI Properties */
+    background: #f5f5f5;
+    opacity: 1;
+}
+#Frango {
+    top: 25px;
+    left: 22px;
+    width: 883px;
+    height: 374px;
+/* UI Properties */
+    opacity: 1;
+}
+
+.titulo{
+    top: 2123px;
+    left: 21px;
+    width: 311px;
+    height: 42px;
+    text-align: left;
+    font: normal normal 900 34px/42px Montserrat;
+    letter-spacing: 0px;
+    color: #FFB300;
+    opacity: 1;
+}
+
+.titulos{
+    font: normal normal 900 34px/42px Montserrat;
+    letter-spacing: 0px;
+    color: #FFB300;
+    opacity: 1;
+}
+
+.texto{
+    top: 679px;
+    left: 21px;
+    width: 883px;
+    height: 197px;
+/* UI Properties */
+    text-align: left;
+    font: normal normal 600 21px/34px Montserrat;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+
+}
+
+.video{
+    top: 2200px;
+    left: 22px;
+    width: 883px;
+    height: 497px;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+
+#ingredientes{
+    top: 1179px;
+    left: 96px;
+    width: 753px;
+    height: 366px;
+/* UI Properties */
+    text-align: left;
+    font: normal normal 600 21px/34px Montserrat;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+#modo-de-preparo{
+    top: 1675px;
+    left: 61px;
+    width: 844px;
+    height: 380px;
+    text-align: left;
+    font: normal normal 600 21px/34px Montserrat;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+/* Estilize os links de acesso rápido */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-bottom: 10px;
+}
+
+/* Estilize o texto do modo de preparo */
+#modo-de-preparo li {
+    font-size: 16px;
+    line-height: 1.5;
+}

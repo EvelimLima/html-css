@@ -1,0 +1,75 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #a09e9c;
+    text-transform: initial;
+    max-width: 1920px;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+
+/* Estilos do cabeçalho */
+header {
+    background-image: url("img/verde.png"); /* Adicione o caminho da sua imagem aqui */
+    background-size: cover; /* Faz a imagem cobrir todo o cabeçalho */
+    background-position: center; /* Centraliza a imagem horizontalmente e verticalmente */
+    color: #fff; /* Cor do texto no cabeçalho (opcional) */
+    padding: 20px;
+    height: 250px;
+}
+
+h1 {
+    margin-right: 350px;
+}
+p{
+    color: #0074d9  ;
+}
+
+.Buscar{
+    margin: 0 auto;
+    background-color: none;
+    height: 40px;
+    text-align: center;
+}
+
+input[type="text"] {
+    border-radius: 10px;
+    width: 200px;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+button#search-button {
+    background: rgb(60, 180, 72);
+    border-radius: 10px;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.image-list {
+    display: flex; /* Exibe os itens lado a lado */
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    align-items: center; /* Centraliza os itens verticalmente */
+}
+
+.image-item {
+    flex-basis: calc(33.33% - 20px);
+    border: 1px solid rgb(185, 184, 184);
+    padding: 10px;
+    text-align: center;
+}
+
+.image-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos para telas menores */
+@media screen and (max-width: 768px) {
+    .image-item {
+        flex-basis: calc(50% - 20px);
+    }
+}
